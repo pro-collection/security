@@ -15,6 +15,10 @@
 
     <dependencyManagement>
         <dependencies>
+            <!--
+            作用是管理 spring 版本 使用依赖的时候，不需要写版本
+            保障左右引入的所有版本是兼容的
+             -->
             <dependency>
                 <groupId>io.spring.platform</groupId>
                 <artifactId>platform-bom</artifactId>
@@ -22,6 +26,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -46,5 +51,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <!-- 下满四个模块作为子模块 -->
+    <modules>
+        <module>../yanle-security-app</module>
+        <module>../yanle-security-browser</module>
+        <module>../yanle-security-core</module>
+        <module>../yanle-security-demo</module>
+    </modules>
 
 </project>
