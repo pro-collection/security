@@ -42,6 +42,21 @@
 - 做一个查询方法测试： demo/src/test/java/com/imooc/web/controller/UserControllerTest.java - whenQuerySuccess 
 - 添加controller: demo/src/main/java/com/imooc/web/controller/UserController.java
 - 涉及到的结构体，定义在 demo/src/main/java/com/imooc/dto/User.java
+- 涉及到参数的接受类： demo/src/main/java/com/imooc/dto/UserQueryCondition.java
+- 错误处理机制
+    - demo/src/main/java/com/imooc/exception/UserNotExistException.java
+    - demo/src/main/java/com/imooc/web/controller/ControllerExceptionHandler.java
+- 切片拦截
+    - 过滤器拦截： demo/src/main/java/com/imooc/web/filter/TimeFilter.java
+    - 如果添加三方的过滤器： demo/src/main/java/com/imooc/web/config/WebConfig.java
+    - 拦截器： demo/src/main/java/com/imooc/web/interceptor/TimeInterceptor.java
+        - 拦截器是需要添加到配置的， 否则无法使用
+        - 项目与过滤去， 好处是， 可以拿到方法的调用
+        - 缺点是无法拿到参数
+    - 切片AOP： 
+        - demo/src/main/java/com/imooc/web/aspect/TimeAspect.java
+    
+    
 
 
 
