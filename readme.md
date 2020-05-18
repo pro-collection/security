@@ -55,7 +55,8 @@
         - 缺点是无法拿到参数
     - 切片AOP： 
         - demo/src/main/java/com/imooc/web/aspect/TimeAspect.java
-    
+- 文件服务
+    - 模拟上传文件： demo/src/test/java/com/imooc/web/controller/UserControllerTest.java
     
 
 
