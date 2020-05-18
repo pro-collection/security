@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <imooc.security.version>1.0.0-SNAPSHOT</imooc.security.version>
+        <yanle.security.version>1.0-SNAPSHOT</yanle.security.version>
     </properties>
 
     <dependencyManagement>

@@ -12,6 +12,13 @@
         <relativePath>../yanle-security/pom.xml</relativePath>
     </parent>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.yanle.security</groupId>
+            <artifactId>yanle-security-core</artifactId>
+            <version>${yanle.security.version}</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

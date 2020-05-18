@@ -11,6 +11,22 @@
         <relativePath>../yanle-security/pom.xml</relativePath>
     </parent>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.yanle.security</groupId>
+            <artifactId>yanle-security-core</artifactId>
+            <version>${yanle.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+    </dependencies>
 
 
 
