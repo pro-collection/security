@@ -36,6 +36,12 @@
 
 - idea 中的打包： `yanle-security` -> maven -> Lifecycle -> package  
 
+### api
+- 建立一个测试类： demo/src/test/java/com/imooc/web/controller/UserControllerTest.java
+- 需要伪造一个 WebApplicationContext环境， 这样启动快
+- 做一个查询方法测试： demo/src/test/java/com/imooc/web/controller/UserControllerTest.java - whenQuerySuccess 
+- 添加controller: demo/src/main/java/com/imooc/web/controller/UserController.java
+- 涉及到的结构体，定义在 demo/src/main/java/com/imooc/dto/User.java
 
 
 
