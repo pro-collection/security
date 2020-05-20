@@ -61,8 +61,10 @@
     - 上传下载接口： demo/src/main/java/com/imooc/web/controller/FileController.java
 - 多线程
     - 异步请求： demo/src/main/java/com/imooc/web/async/AsyncController.java
-    - 添加消息队列： demo/src/main/java/com/imooc/web/async/MockQueue.java
-    - 处理消息结果： demo/src/main/java/com/imooc/web/async/DeferredResultHolder.java
+        - Callable 方式处理异步请求
+        - DeferredResult 方式处理异步请求
+    - 模拟消息队列： demo/src/main/java/com/imooc/web/async/MockQueue.java
+    - 处理消息通信： demo/src/main/java/com/imooc/web/async/DeferredResultHolder.java
     - 监听器： demo/src/main/java/com/imooc/web/async/QueueListener.java
 
 
