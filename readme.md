@@ -56,8 +56,9 @@
     - 切片AOP： 
         - demo/src/main/java/com/imooc/web/aspect/TimeAspect.java
 - 文件服务
-    - 模拟上传文件： demo/src/test/java/com/imooc/web/controller/UserControllerTest.java
-    
+    - 测试上传文件： demo/src/test/java/com/imooc/web/controller/UserControllerTest.java whenUploadSuccess
+    - 添加DTO： demo/src/main/java/com/imooc/dto/FileInfo.java
+    - 上传下载接口： demo/src/main/java/com/imooc/web/controller/FileController.java
 
 
 
