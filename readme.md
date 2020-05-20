@@ -66,5 +66,9 @@
     - 模拟消息队列： demo/src/main/java/com/imooc/web/async/MockQueue.java
     - 处理消息通信： demo/src/main/java/com/imooc/web/async/DeferredResultHolder.java
     - 监听器： demo/src/main/java/com/imooc/web/async/QueueListener.java
-
+    - 修改配置： demo/src/main/java/com/imooc/web/config/WebConfig.java
+- Swagger文档工具
+    - 参考文章：[SwaggerUI](https://github.com/demo-collection/web-document/blob/master/document-demo/docs/02%E3%80%81SwaggerUI.md)
+- WireMock
+    
 
