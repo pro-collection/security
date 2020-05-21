@@ -74,3 +74,15 @@
         这种方式其实并不好，前端有更多更好的办法做mock服务
         如果实在是想用 WireMock 要去官网看看
 
+
+### 基于Spring Security 开发表单验证
+核心功能：               
+认证（登录）、授权、攻击保护
+
+- 基本原理
+    如果什么都不做的时候 `security.basic.enabled = true` 是这样的， 如果希望关闭就直接 设置为false , 如果是默认的场景， 访问接口的时候， 会让填写用户名和密码。
+    用户名是默认的， 用户名是默认的 user, 密码在启动的时候， 会给出来。
+    - 基本配置： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java
+        - 主要配置http请求相关： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java configure
+
+     
