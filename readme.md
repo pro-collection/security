@@ -86,4 +86,12 @@
     - 基本配置： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java
         - 主要配置http请求相关： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java configure
 
-     
+- 自定义用户认证
+    - 用户信息获取： demo/src/main/java/com/imooc/security/MyUserDetailsService.java                                     
+    - 用户的校验：                                                    
+        - 密码是否正确的部分是由springSecurity 验证好了的。                                                   
+        - 校验逻辑：  SocialUser 其中就是 3，4，5，6 四个参数                                   
+        - 加密： 加密哟啊使用到 PasswordEncoder                                   
+            需要添加到配置里面去： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java `public PasswordEncoder passwordEncoder()`
+            
+             
