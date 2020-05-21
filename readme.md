@@ -72,4 +72,5 @@
 - WireMock
     - 链接本地文件： dmeo/src/main/java/com/imooc/wiremock/MockServer.java
         这种方式其实并不好，前端有更多更好的办法做mock服务
+        如果实在是想用 WireMock 要去官网看看
 
