@@ -70,5 +70,6 @@
 - Swagger文档工具
     - 参考文章：[SwaggerUI](https://github.com/demo-collection/web-document/blob/master/document-demo/docs/02%E3%80%81SwaggerUI.md)
 - WireMock
-    
+    - 链接本地文件： dmeo/src/main/java/com/imooc/wiremock/MockServer.java
+        这种方式其实并不好，前端有更多更好的办法做mock服务
 
