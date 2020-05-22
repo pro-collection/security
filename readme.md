@@ -94,4 +94,7 @@
         - 加密： 加密哟啊使用到 PasswordEncoder                                   
             需要添加到配置里面去： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java `public PasswordEncoder passwordEncoder()`
             
-             
+- 个性化用户认证
+    - 自定义登录页面： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java    
+        - 自定义controller, 如果没有登录， 就直接返回错误码， 让前端自己跳转到对应的登录页面。
+    - 自定义验证的controller： browser/src/main/java/com/imooc/security/browser/BrowserSecurityController.java    
