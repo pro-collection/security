@@ -104,7 +104,15 @@
     - 添加配置的扫描： core/src/main/java/com/imooc/security/core/SecurityCoreConfig.java                                   
     - 自定义请求成功处理， 实现一个接口就行了： browser/src/main/java/com/imooc/security/browser/authentication/ImoocAuthenticationSuccessHandler.java
     - 自定义请求失败处理， 实现一个接口就行了： browser/src/main/java/com/imooc/security/browser/authentication/ImoocAuthenctiationFailureHandler.java
-    
+- 图形验证码
+    - 图形生成吗接口： 
+        - 首先定义一个图片对象： core/src/main/java/com/imooc/security/core/validate/code/image/ImageCode.java
+        - 生成图片的controller:  core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeController.java
+            - 还需要把这个图形验证码加入到auth里面
+    - 通过过滤器来实现： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeFilter.java
+        - doFilterInternal
+        - 添加异常类： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeException.java
+        - 验证方法： core/src/main/java/com/imooc/security/core/validate/code/impl/AbstractValidateCodeProcessor.java validate
     
     
     
