@@ -97,4 +97,5 @@
 - 个性化用户认证
     - 自定义登录页面： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java    
         - 自定义controller, 如果没有登录， 就直接返回错误码， 让前端自己跳转到对应的登录页面。
-    - 自定义验证的controller： browser/src/main/java/com/imooc/security/browser/BrowserSecurityController.java    
+    - 自定义验证的controller： browser/src/main/java/com/imooc/security/browser/BrowserSecurityController.java                                  
+        如果用户没有登录， 直接返还状态码， 让前端自己做跳转判定
