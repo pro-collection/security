@@ -113,7 +113,7 @@
         - doFilterInternal
         - 添加异常类： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeException.java
         - 验证方法： core/src/main/java/com/imooc/security/core/validate/code/impl/AbstractValidateCodeProcessor.java validate
-    
+        - 最后需要把过滤器加入到配置中： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java
     
     
     
