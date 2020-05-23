@@ -101,7 +101,10 @@
         如果用户没有登录， 直接返还状态码， 让前端自己做跳转判定
     - 添加一些外部调用的可以配置的参数： core/src/main/java/com/imooc/security/core/properties/SecurityProperties.java                   
                                      core/src/main/java/com/imooc/security/core/properties/BrowserProperties.java                                                           
-    - 添加配置的扫描： core/src/main/java/com/imooc/security/core/SecurityCoreConfig.java
+    - 添加配置的扫描： core/src/main/java/com/imooc/security/core/SecurityCoreConfig.java                                   
+    - 自定义请求成功处理， 实现一个接口就行了： browser/src/main/java/com/imooc/security/browser/authentication/ImoocAuthenticationSuccessHandler.java
+    - 自定义请求失败处理， 实现一个接口就行了： browser/src/main/java/com/imooc/security/browser/authentication/ImoocAuthenctiationFailureHandler.java
+    
     
     
     
