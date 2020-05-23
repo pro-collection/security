@@ -114,7 +114,8 @@
         - 添加异常类： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeException.java
         - 验证方法： core/src/main/java/com/imooc/security/core/validate/code/impl/AbstractValidateCodeProcessor.java validate
         - 最后需要把过滤器加入到配置中： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java
-    
-    
+- 重构图形验证码                                   
+    - 基础的参数可配 core/src/main/java/com/imooc/security/core/properties/ImageCodeProperties.java
+    - 再加一层封装 core/src/main/java/com/imooc/security/core/properties/ValidateCodeProperties.java
     
     
