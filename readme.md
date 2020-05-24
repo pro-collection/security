@@ -119,4 +119,7 @@
     - 再加一层封装 core/src/main/java/com/imooc/security/core/properties/ValidateCodeProperties.java
     - 都封装在 core/src/main/java/com/imooc/security/core/properties/SecurityProperties.java
     - 还需要添加主配置文件
+    - 接口可配置： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeFilter.java  afterPropertiesSet、doFilterInternal
+    - 业务逻辑的封装实现： core/src/main/java/com/imooc/security/core/validate/code/image/ImageCodeGenerator.java
+    - 接口的实现也是可配置： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeBeanConfig.java
     
