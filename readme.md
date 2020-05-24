@@ -122,4 +122,9 @@
     - 接口可配置： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeFilter.java  afterPropertiesSet、doFilterInternal
     - 业务逻辑的封装实现： core/src/main/java/com/imooc/security/core/validate/code/image/ImageCodeGenerator.java
     - 接口的实现也是可配置： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeBeanConfig.java
+- 记住我
+    - 修改配置： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java  persistentTokenRepository,DataSource
+    - 配置失效时间： browser/src/main/java/com/imooc/security/core/properties/BrowserProperties.java  rememberMeSeconds 
+    - 添加配置： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java rememberMe  
     
+
