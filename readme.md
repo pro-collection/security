@@ -126,5 +126,9 @@
     - 修改配置： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java  persistentTokenRepository,DataSource
     - 配置失效时间： browser/src/main/java/com/imooc/security/core/properties/BrowserProperties.java  rememberMeSeconds 
     - 添加配置： browser/src/main/java/com/imooc/security/browser/BrowserSecurityConfig.java rememberMe  
-    
+- 短信验证码登录
+    - 开发短信验证码接口： core/src/main/java/com/imooc/security/core/validate/code/ValidateCodeController.java
+    - 生成验证码： core/src/main/java/com/imooc/security/core/validate/code/ValidateCode.java
+    - 实现发送验证码逻辑： core/DefaultSmsCodeSender
+    - 配置添加到bean:  core/ValidateCodeBeanConfig
 
