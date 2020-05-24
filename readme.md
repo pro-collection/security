@@ -117,5 +117,6 @@
 - 重构图形验证码                                   
     - 基础的参数可配 core/src/main/java/com/imooc/security/core/properties/ImageCodeProperties.java
     - 再加一层封装 core/src/main/java/com/imooc/security/core/properties/ValidateCodeProperties.java
-    
+    - 都封装在 core/src/main/java/com/imooc/security/core/properties/SecurityProperties.java
+    - 还需要添加主配置文件
     
