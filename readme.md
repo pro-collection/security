@@ -131,4 +131,7 @@
     - 生成验证码： core/src/main/java/com/imooc/security/core/validate/code/ValidateCode.java
     - 实现发送验证码逻辑： core/DefaultSmsCodeSender
     - 配置添加到bean:  core/ValidateCodeBeanConfig
+    - 短信验证码生成器： core/SmsCodeGenerator
+    - 添加短信验证码的配置： core/SmsCodeProperties
+    
 
