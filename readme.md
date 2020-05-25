@@ -136,4 +136,6 @@
 - 短信登录的开发
     - 短信验证码生成token: core/SmsCodeAuthenticationToken
     - 拦截过滤器： core/SmsCodeAuthenticationFilter
+    - provider: core/SmsCodeAuthenticationProvider
+    - 配置： core/SmsCodeAuthenticationSecurityConfig
 
