@@ -139,3 +139,11 @@
     - provider: core/SmsCodeAuthenticationProvider
     - 配置： core/SmsCodeAuthenticationSecurityConfig
     - 加入主配置： browser/BrowserSecurityConfig
+- SpringSocial三方登录
+    - QQ登录
+    - 微信登录
+    - 绑定和接触绑定
+    - session
+    - 退出登录
+- Spring Security OAuth开发APP认证框架
+- 使用Spring Security控制授权
