@@ -133,5 +133,7 @@
     - 配置添加到bean:  core/ValidateCodeBeanConfig
     - 短信验证码生成器： core/SmsCodeGenerator
     - 添加短信验证码的配置： core/SmsCodeProperties
-    
+- 短信登录的开发
+    - 短信验证码生成token: core/SmsCodeAuthenticationToken
+    - 拦截过滤器： core/SmsCodeAuthenticationFilter
 
