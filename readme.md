@@ -138,4 +138,4 @@
     - 拦截过滤器： core/SmsCodeAuthenticationFilter
     - provider: core/SmsCodeAuthenticationProvider
     - 配置： core/SmsCodeAuthenticationSecurityConfig
-
+    - 加入主配置： browser/BrowserSecurityConfig
